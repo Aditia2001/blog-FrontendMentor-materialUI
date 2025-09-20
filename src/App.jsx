@@ -127,7 +127,7 @@ export default function App() {
             }}
           >
             <img src="./src/assets/Images/userpic.png" alt="User Picture" />
-            <Typography>Greg Hooper</Typography>
+            <TextPreset3Bold>Greg Hooper</TextPreset3Bold>
           </Stack>
         </CardContent>
       </Card>
