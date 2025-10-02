@@ -1,14 +1,7 @@
 import * as React from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import {
-  Button,
-  Card,
-  CardContent,
-  Stack,
-  styled,
-  ThemeProvider,
-} from "@mui/material";
+import { Card, CardContent, Stack, styled } from "@mui/material";
 import theme from "./theme";
 
 const ContainerFull = styled(Container)`
