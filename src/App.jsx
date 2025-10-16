@@ -54,6 +54,7 @@ const Image = styled("img")`
 // const containerFull =styled
 export default function App() {
   return (
+    // maxwidth responsive container
     <ContainerFull maxWidth="sm">
       <Card
         // style={{}}
