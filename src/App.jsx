@@ -15,6 +15,7 @@ const TextPreset1 = styled(Typography)(({ theme }) => ({
   lineHeight: "150%",
   letterSpacing: "0",
   fontFamily: "Figtree-ExtraBold",
+  // down = max width
   [theme.breakpoints.down("sm")]: {
     fontSize: "20px",
   },
