@@ -55,11 +55,13 @@ export default function App() {
   return (
     <ContainerFull maxWidth="sm">
       <Card
+        // style={{}}
         sx={{
           maxWidth: "384px",
           borderRadius: "20px",
           border: "1px solid black",
           boxShadow: "8px 8px 0px 0px rgba(0,0,0,1)",
+          // down max-width
           [theme.breakpoints.down("sm")]: {
             width: "327px",
           },
@@ -73,6 +75,7 @@ export default function App() {
           <Image
             src="./src/assets/Images/Blog_image.png"
             alt="Blog Image"
+            //sx adalah style
             sx={{
               marginBottom: "24px",
             }}
